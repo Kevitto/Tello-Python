@@ -1,4 +1,6 @@
 command
 takeoff
-delay 5
+delay 1
+flip f
+delay 1
 land
