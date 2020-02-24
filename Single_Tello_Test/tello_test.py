@@ -21,6 +21,7 @@ for command in commands:
             time.sleep(sec)
             pass
         else:
+            print command
             tello.send_command(command)
 
 log = tello.get_log()
